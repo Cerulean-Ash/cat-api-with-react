@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Cerulean-Ash.github.io/cat-api-with-react",
   "name": "cat-api-with-react",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build", // or yarn build
+    "deploy": "gh-pages -b gh-deploy -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
+
 }
