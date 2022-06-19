@@ -10,6 +10,7 @@ This is a one page React web app using [_the cat api_](https://thecatapi.com/) t
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Setup](#setup)
+- [Screen Shot](#screen-shot)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 <!-- * [License](#license) -->
@@ -36,6 +37,10 @@ This is a one page React web app using [_the cat api_](https://thecatapi.com/) t
 
 - In your terminal in the project root folder run `npm install` after that `npm run start`
 
+## Screen shot
+
+![Screen shot](https://github.com/Cerulean-Ash/cat-api-with-react/blob/master/cat-api-screenshot.png?raw=true)
+
 ## Acknowledgements
 
 - This project was a created with the aid of the content in the Udemy course [__Modern React with Redux__](https://www.udemy.com/course/react-redux/)
@@ -43,3 +48,5 @@ This is a one page React web app using [_the cat api_](https://thecatapi.com/) t
 ## Contact
 
 - Created by [_Cerulean-Ash_](https://cerulean-ash.github.io/portfolioV2/) Feel free to contact me!
+
+
