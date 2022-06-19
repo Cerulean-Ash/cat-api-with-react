@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cat-api-with-react/static/css/main.a4145a6a.css",
+    "main.js": "/cat-api-with-react/static/js/main.369a24bd.js",
+    "index.html": "/cat-api-with-react/index.html",
+    "main.a4145a6a.css.map": "/cat-api-with-react/static/css/main.a4145a6a.css.map",
+    "main.369a24bd.js.map": "/cat-api-with-react/static/js/main.369a24bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4145a6a.css",
+    "static/js/main.369a24bd.js"
+  ]
+}
