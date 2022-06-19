@@ -1,0 +1,30 @@
+.description-card__description {
+  margin-bottom: 1rem;
+}
+
+.description-card__life-span span, .description-card__weight span {
+  font-weight: 800;
+}
+
+.description-card__weight, .description-card__life-span {
+  margin-bottom: 1rem;
+}
+
+.description-card__link {
+  background-color: rgb(16, 214, 132);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.75rem;
+  margin: 1rem 0;
+}
+
+.description-card__link:hover {
+  background-color: rgb(15, 185, 114);
+  color: white;
+}
+
+.description-card__info-container {
+  display: flex;
+  justify-content: space-between;
+}
