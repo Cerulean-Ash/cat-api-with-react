@@ -8,7 +8,7 @@ class SearchContainer extends React.Component {
   constructor(props) {
     super(props);
 
-    this.term = "";
+    this.term = ""; // could have used state instead here
 
     this.state = { images: [] };
   }
@@ -22,14 +22,14 @@ class SearchContainer extends React.Component {
     const response = await theCatApi.get(`v1/images/search`, {
       params: query_params,
     });
-    this.setState({ images: response.data });
+    this.setState({ images: response.data }); // returns an object containing image urls amongst other things
   };
 
   render() {
     return (
       <div>
         <SearchBar
-          runOnSubmit={this.onSearchSubmit}
+          runOnSubmit={this.onSearchSubmit} // call back to onSearchSubmit function which calls the api for cat images
           breedList={this.props.breedList}
         />
         <DescriptionCard
